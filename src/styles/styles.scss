@@ -19,6 +19,23 @@ a:hover{
   text-decoration: none;
 }
 
+//@import "../node_modules/bootstrap/scss/navbar";
+
+@import "../../node_modules/bootstrap/scss/mixins/hover";
+
+//.nav-link{
+//  color: red;
+//  @include hover-focus{
+//    color: red !important;
+//  }
+//}
+
+.nav-link a {
+  @include hover-focus {
+    color: red !important;
+  }
+}
+
 /* Címsorok */
 h1, h2{
   font-family: 'Muli', sans-serif;
@@ -33,3 +50,7 @@ h1 {
 }
 
 h2 { font-size: 18px; }
+
+#alcim {
+  text-align: center
+}

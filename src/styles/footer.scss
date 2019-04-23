@@ -1,0 +1,15 @@
+div.my-footer, .card-footer {
+  font-size: 12px;
+  background: transparent;
+  border-top: 2px dashed gray;
+
+  a {
+    color: gray;
+
+    &:hover {
+      color: darkgreen;
+      text-decoration: none;
+    }
+  }
+
+}
